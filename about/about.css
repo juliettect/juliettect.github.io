@@ -1,0 +1,14 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    max-width: 100%;
+}
+.bg {
+
+    background-image: url("under_con.GIF");
+    height: 100%;
+    background-position: center;
+    background-size: 42%;
+    background-repeat: no-repeat;
+    position: relative;
+}
