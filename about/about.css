@@ -5,10 +5,40 @@ body, html {
 }
 .bg {
 
-    background-image: url("under_con.GIF");
+    background-image: url("About_Me_Eng.png");
     height: 100%;
     background-position: center;
-    background-size: 42%;
+    background-size: 62%;
     background-repeat: no-repeat;
     position: relative;
+}
+#divwrapper {
+    height: 10vw;
+    width: 18vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    /*border: 2px dashed black; */
+    /*cursor: pointer;*/
+    z-index: 2;
+    top: 50%; right: 38%; left: 56.5%;
+}
+#insta{
+    opacity: 1;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 75%;
+    top: 28%;
+    left: 35%;
+    cursor: pointer;
+}
+#email{
+    opacity: 1;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 75%;
+    top: 68%;
+    left: 35%;
+    cursor: pointer;
 }
