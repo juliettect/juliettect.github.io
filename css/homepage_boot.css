@@ -1,0 +1,236 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    max-width: 100%;
+}
+.bg {
+
+    background-image: url("homepage.GIF");
+    height: 100%;
+    background-position: center;
+    background-size: 79%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#divwrapper {
+    height: 6vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    /*border: 2px dashed black; */
+    cursor: pointer;
+    z-index: 2;
+    top: 50%; right: 38%; left: 56.5%;
+}
+#click1 {
+    height: 6vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    /*border: 2px dashed black;*/
+    cursor: pointer;
+    z-index: 10;
+    top: 50%; right: 38%; left: 56.5%;
+}
+
+#click2 {
+    height: 5.2vw;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    /*border: 2px dashed red;*/
+    cursor: pointer;
+    z-index: 10;
+    width: 5.3vw;
+    top: 6.5vw; left: 0vw;
+}
+
+#click3 {
+    
+    height: 4vw;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    /*border: 2px dashed blue;*/
+    cursor: pointer;
+    z-index: 10;
+    width: 71%;
+    top: 13vw; left: -8vw;
+    
+}
+#click4 {
+    height: 5vw;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    /*border: 2px dashed green;*/
+    cursor: pointer;
+    z-index: 10;
+    width: 71%;
+    top: 14.5vw; left: -0.6vw;
+}
+#click5 {
+    height: 4vw;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    /*border: 2px dashed purple;*/
+    cursor: pointer;
+    z-index: 10;
+    width: 71%;
+    top: 12vw; left: 12vw;
+}
+#nuts{
+    opacity:1;
+    position: absolute;
+    z-index: 2;
+    top: -20vw; left: -46vw;
+    width: 59.5vw;
+    cursor: default;
+}
+#nut1{
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    left: 12vw;
+    width: 59.5vw;
+    cursor: default;
+}
+
+#nut2 {
+
+    position: absolute;
+    z-index: 3;
+    top: -20vw; left: 307vw;
+    width: 59.5vw;
+    cursor: default;
+}
+#nut3 {
+
+    position: absolute;
+    z-index: 4;
+    width: 59.5vw;
+    cursor: default;
+}
+#nut4 {
+
+    position: absolute;
+    z-index: 3;
+    width: 59.5vw;
+    cursor: default;
+}
+#nut5 {
+
+    position: absolute;
+    z-index: 4;
+    width: 59.5vw;
+    cursor: default;
+}
+
+#glow1 {
+    opacity:0;
+    position: absolute;
+    top: -20vw; left: -34vw;
+    width: 59.5vw;
+    cursor: default;
+    z-index: 5;
+}
+#glow2 {
+    opacity:0;
+    position: absolute;
+    top: -20vw; left: -34vw;
+    width: 59.5vw;
+    cursor: default;
+    z-index: 5;
+}
+#glow3 {
+    opacity:0;
+    position: absolute;
+    top: -20vw; left: -34vw;
+    width: 59.5vw;
+    cursor: default;
+    z-index: 6;
+}
+#glow4 {
+    opacity:0;
+    position: absolute;
+    top: -20vw; left: -34vw;
+    width: 59.5vw;
+    cursor: default;
+    z-index: 7;
+}
+#glow5 {
+    opacity:0;
+    position: absolute;
+    top: -20vw; left: -34vw;
+    width: 59.5vw;
+    cursor: default;
+    z-index: 8;
+}
+#text1  {
+    position: absolute;
+    top: -14vw; left: -5vw;
+    width: 450%;
+    opacity: 1;
+}
+#menu1, #menu2, #menu3, #menu4, #menu5 {
+    position: absolute;
+    top: -23vw; left: -32vw;
+    opacity: 0;
+}
+
+#text1.load,#text2.load, #text3.load {
+    -webkit-transition: opacity 1s ease-out;
+       -moz-transition: opacity 1s ease-out;
+        -ms-transition: opacity 1s ease-out;
+         -o-transition: opacity 1s ease-out;
+            transition: opacity 0.9s ease-out;
+    opacity: 1;
+}
+#text1.load.out {
+    -webkit-transition: opacity 0s ease-in;
+       -moz-transition: opacity 0s ease-in;
+        -ms-transition: opacity 0s ease-in;
+         -o-transition: opacity 0s ease-in;
+            transition: opacity 0s ease-in;
+    opacity: 0;
+}
+
+#nut2 {
+    opacity: 0;
+    position: absolute;
+    left: 19.5%;
+    z-index: 1;
+    position: absolute;
+    display: block;
+    opacity: 0;
+    top:0;
+    left:19.5%;
+}
+#nut3 {
+    opacity: 0;
+    position: absolute;
+    left: 19.5%;
+    z-index: 1;
+    position: absolute;
+    display: block;
+    opacity: 0;
+    top:0;
+    left:19.5%;
+}
+#nut4 {
+    opacity: 0;
+    position: absolute;
+    left: 19.5%;
+    z-index: 1;
+    position: absolute;
+    display: block;
+    opacity: 0;
+    top:0;
+    left:19.5%;
+}
+#nut5 {
+    opacity: 0;
+    position: absolute;
+
+    z-index: 1;
+    position: absolute;
+    display: block;
+    opacity: 0;
+    top:0;
+    left:19.5%;
+}
