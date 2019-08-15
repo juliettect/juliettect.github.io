@@ -167,9 +167,11 @@ body, html {
     width: 450%;
     opacity: 1;
 }
+
 #menu1, #menu2, #menu3, #menu4, #menu5 {
     position: absolute;
     top: -23vw; left: -32vw;
+    width: 1100%;
     opacity: 0;
 }
 

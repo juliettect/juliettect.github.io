@@ -1,4 +1,3 @@
-
 function show() {
     document.getElementById("glow1").style.opacity = 1;
     document.getElementById("nut1").style.opacity = 1;
