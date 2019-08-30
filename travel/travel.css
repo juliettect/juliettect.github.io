@@ -76,8 +76,8 @@ body, html {
     opacity: 1;
     position: absolute;
     z-index: 13;
-    top: -3vw;
-    left: 18vw;
+    top: -6vw;
+    left: 23vw;
     width: 58vw;
     cursor: default;
 }
@@ -85,8 +85,8 @@ body, html {
     opacity: 1;
     position: absolute;
     z-index: 14;
-    top: -0.3vw;
-    left: 12.1vw;
+    top: -6vw;
+    left: 18vw;
     width: 58vw;
     cursor: default;
 }
