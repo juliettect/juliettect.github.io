@@ -5,10 +5,64 @@ body, html {
 }
 .bg {
 
-    background-image: url("under_con.GIF");
+    background-image: url("images/emptymap.png");
     height: 100%;
     background-position: center;
-    background-size: 42%;
+    background-size: 79%;
+    background-color: rgb(168,213,244);
     background-repeat: no-repeat;
     position: relative;
+}
+#divwrapper {
+    height: 6vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px dashed black; 
+    cursor: pointer;
+    z-index: 2;
+    top: 10%; right: 38%; left: 56.5%;
+}
+#countries {
+    position: fixed;
+    border: 2px dashed black;
+    cursor: pointer;
+    z-index: 3;
+    width: 5%;
+    top: 50%; right: 0%; left: 10%;
+}
+#country_con{
+    height: 20vw;
+    position: absolute;
+    border: 2px dashed red;
+    cursor: pointer;
+    z-index: 10;
+    width: 44vh;
+    top: -20.15vw; left: -0.8vw;
+    opacity: 1;
+}
+#c1{
+    opacity: 1;
+    position: absolute;
+    z-index: 12;
+    left: 11vw;
+    width: 58vw;
+    cursor: default;
+}
+#c2 {
+    opacity: 1;
+    position: absolute;
+    z-index: 13;
+    top: -1.3vw;
+    left: 11.2vw;
+    width: 58vw;
+    cursor: default;
+}
+#c3 {
+    opacity: 1;
+    position: absolute;
+    z-index: 13;
+    top: -0.3vw;
+    left: 12.1vw;
+    width: 58vw;
+    cursor: default;
 }
