@@ -17,14 +17,12 @@ body, html {
     position: fixed;
     background-color: rgba(0, 0, 0, 0);
     /*border: 2px dashed black; */
-    cursor: pointer;
     z-index: 2;
     top: 10%; right: 38%; left: 56.5%;
 }
 #countries {
     position: fixed;
     /*border: 2px dashed black;*/
-    cursor: pointer;
     z-index: 3;
     width: 5%;
     top: 50%; right: 0%; left: 10%;
@@ -33,7 +31,6 @@ body, html {
     height: 20vw;
     position: absolute;
     /*border: 2px dashed red;*/
-    cursor: pointer;
     z-index: 10;
     width: 44vh;
     top: -19.89vw; left: -0.5vw;
