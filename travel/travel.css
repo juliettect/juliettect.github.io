@@ -75,3 +75,21 @@ body, html {
     width: 58vw;
     cursor: default;
 }
+#c5 {
+    opacity: 1;
+    position: absolute;
+    z-index: 13;
+    top: -3vw;
+    left: 18vw;
+    width: 58vw;
+    cursor: default;
+}
+#c6 {
+    opacity: 1;
+    position: absolute;
+    z-index: 14;
+    top: -0.3vw;
+    left: 12.1vw;
+    width: 58vw;
+    cursor: default;
+}
