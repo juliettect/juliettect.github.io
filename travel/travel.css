@@ -4,7 +4,6 @@ body, html {
     max-width: 100%;
 }
 .bg {
-
     background-image: url("images/emptymap.png");
     height: 100%;
     background-position: center;
@@ -58,6 +57,15 @@ body, html {
     cursor: default;
 }
 #c3 {
+    opacity: 1;
+    position: absolute;
+    z-index: 13;
+    top: -0.3vw;
+    left: 12.1vw;
+    width: 58vw;
+    cursor: default;
+}
+#c4 {
     opacity: 1;
     position: absolute;
     z-index: 13;
