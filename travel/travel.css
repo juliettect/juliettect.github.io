@@ -40,9 +40,9 @@ body, html {
     opacity: 1;
     position: absolute;
     z-index: 12;
-    top: -1.4vw;
-    left: 11.5vw;
-    width: 58vw;
+    top: -1.55vw;
+    left: 11.3vw;
+    width: 58.5vw;
     cursor: default;
 }
 #c2 {
@@ -57,10 +57,10 @@ body, html {
 #c3 {
     opacity: 1;
     position: absolute;
-    z-index: 13;
-    top: -0.65vw;
-    left: 12.1vw;
-    width: 59vw;
+    z-index: 10;
+    top: -1.45vw;
+    left: 11.01vw;
+    width: 61.5vw;
     cursor: default;
 }
 #c4 {
