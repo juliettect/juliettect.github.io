@@ -90,3 +90,12 @@ body, html {
     width: 58vw;
     cursor: default;
 }
+#c7 {
+    opacity: 1;
+    position: absolute;
+    z-index: 14;
+    top: 0.2vw;
+    left: 12.5vw;
+    width: 58vw;
+    cursor: default;
+}
